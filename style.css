@@ -1,3 +1,26 @@
+/* main font style */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* font name */
+.mainfont{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+/* secondary font */
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+/* font name */
+.scndfont{
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
 .gapp{
     width: 80%;
     margin: auto;
@@ -144,4 +167,10 @@
     padding: 10px;
     font-weight: 600;
     border-radius: 10px;
+}
+.lstscton{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
