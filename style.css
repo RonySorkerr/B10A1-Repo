@@ -20,7 +20,24 @@
     font-variation-settings:
       "slnt" 0;
   }
+  
+.contactButton{
+    background-color: transparent;
+}
 
+.bannerTtl button{
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(0, 255, 191, 0.226);
+}
+
+.bannerTtl button a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+}
 .gapp{
     width: 80%;
     margin: auto;
@@ -56,17 +73,7 @@
     font-size: 40px;
     font-weight: 900;
 }
-.bannerTtl button{
-    padding: 10px;
-    border-radius: 20px;
-    cursor: pointer;
-    background-color: black;
-}
-.bannerTtl button a{
-    color: white;
-    text-decoration: none;
 
-}
 .wdshd{
     text-align: center;
 }
